@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Quote Generator",
+    "description": "Generate inspiring quotes with this Chrome extension.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "images/7556.jpg",
+        "48": "images/7556.jpg",
+        "128": "images/7556.jpg"
+      }
+    },
+    "icons": {
+      "16": "images/7556.jpg",
+      "48": "images/7556.jpg",
+      "128": "images/7556.jpg"
+    }
+  }
+  
