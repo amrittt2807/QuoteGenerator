@@ -14,6 +14,12 @@
         "128": "images/7556.jpg"
       }
     },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["script.js"]
+        }
+      ],
     "icons": {
       "16": "images/7556.jpg",
       "48": "images/7556.jpg",

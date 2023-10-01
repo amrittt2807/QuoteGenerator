@@ -4,6 +4,7 @@ const quote = document.getElementById("quote");
 const quoteAuthor = document.getElementById("author");
 const twitterButton = document.getElementById("twitter-button");
 const loader = document.getElementById('loader');
+const newQuoteBtn = document.getElementById("new-quote");
 
 let apiQuote = [];
 
@@ -30,6 +31,7 @@ const newQuote = () => {
   showLoader(false)
 };
 twitterButton.addEventListener('click',()=>alert('feature not added !'))
+newQuoteBtn.addEventListener("click",newQuote)
 
 //ShowLoader
 const showLoader =(str)=>{
